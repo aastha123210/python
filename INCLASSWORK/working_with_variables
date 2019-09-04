@@ -1,0 +1,6 @@
+message = "Hello World"
+print(message)
+
+message_2 = ""Hello World"
+hello_world_message = hello_world_message + "Aastha Giri"
+print(hello_world_message)
