@@ -1,3 +1,8 @@
+#Name:Aastha Giri
+#Student ID:0957366
+#Due Date: September 15, 2019
+#MSITM 6341
+
 grocery_items = ['White Bread', 'Tomatoes', 'Rice', 'Milk', 'Cornflakes']
 price_of_grocery_items = [1.30, 2.5, 5.7, 3.75, 4.08]
 
