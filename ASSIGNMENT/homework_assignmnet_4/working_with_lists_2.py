@@ -1,3 +1,8 @@
+#Name:Aastha Giri
+#Student ID:0957366
+#Due Date: September 22, 2019
+#MSITM 6341
+
 #python program to print list of odd numbers from 3 to 50
 odd_numbers = list(range(3,51,2))
 print(odd_numbers)
