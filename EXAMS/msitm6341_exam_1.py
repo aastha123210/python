@@ -64,3 +64,26 @@ for idx in range(0,len(stock_prices)):
         print(what_day + " No Change in Price")
 
     idx = idx + 1
+
+    menu_items = {
+    'Bacon Guacomole': 9.00,
+    'Baja Fish Tacos': 11.00,
+    'Seafood Enchiladas': 24.00,
+    'Grilled Tilapia': 24.00,
+    'Dumplings': 7.00
+}
+ordered_items = {
+    'Bacon Guacomole',
+    'Fajitas',
+    'Seafood Enchiladas',
+}
+
+total = 0
+for item in ordered_items:
+    if  item in menu_items:
+        print('{} : {}'.format(item,menu_items[item]))
+        total += menu_items[item]
+    else:
+        print("sorry, we don't have {}".format(item))
+    print('...')
+    print('Order Total : ${}'.format(total))
