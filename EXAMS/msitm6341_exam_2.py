@@ -1,5 +1,5 @@
 # Name:Aastha Giri
-# Student ID:0957366
+# Student ID: 0957366
 # Due Date:12th November, 2019
 # MSITM 6341
 #
@@ -88,4 +88,3 @@ print("-------------------------------------------------------")
 
 for item in list_of_store_items:
     print_item(item)
-
